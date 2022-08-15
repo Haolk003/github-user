@@ -1,0 +1,110 @@
+[debug] [2022-08-14T05:17:27.529Z] ----------------------------------------------------------------------
+[debug] [2022-08-14T05:17:27.530Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ACER\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-08-14T05:17:27.531Z] CLI Version:   11.6.0
+[debug] [2022-08-14T05:17:27.531Z] Platform:      win32
+[debug] [2022-08-14T05:17:27.531Z] Node Version:  v18.4.0
+[debug] [2022-08-14T05:17:27.531Z] Time:          Sun Aug 14 2022 12:17:27 GMT+0700 (Giờ Đông Dương)
+[debug] [2022-08-14T05:17:27.532Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-14T05:17:27.538Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-14T05:17:27.538Z] > authorizing via signed-in user (6251071028@st.utc2.edu.vn)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Coder\github-user
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-08-14T05:17:48.792Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-08-14T05:17:49.911Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-08-14T05:17:49.911Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project github-user-df029 (github user) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2022-08-14T05:18:13.777Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-08-14T05:18:14.059Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2022-08-14T05:18:14.059Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.9.2","browserURL":"https://www.gstatic.com/firebasejs/9.9.2/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.9.2/firebase.tgz"},"live":{"version":"9.9","browserURL":"https://www.gstatic.com/firebasejs/live/9.9/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.9/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.9.2/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.9.2/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.9.2/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.9.2/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.9.2/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.9.2/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.9.2/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.9.2/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.9.2/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.9.2/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.9.2/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.9.2/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.9.2/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.9.2/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.9.2/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.9.2/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.9.2/firebase-firestore.memory.js"}}
+[info] +  Wrote 0/index.html 
+[info] 
+[info] i  Detected a .git folder at C:\Coder 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=268571105&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-08-14T05:18:28.459Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2022-08-14T05:18:28.460Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2022-08-14T05:18:29.030Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2022-08-14T05:18:29.030Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2022-08-14T05:18:29.039Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2022-08-14T05:18:29.586Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2022-08-14T05:18:29.586Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"Haolk003","id":96508230,"node_id":"U_kgDOBcCZRg","avatar_url":"https://avatars.githubusercontent.com/u/96508230?v=4","gravatar_id":"","url":"https://api.github.com/users/Haolk003","html_url":"https://github.com/Haolk003","followers_url":"https://api.github.com/users/Haolk003/followers","following_url":"https://api.github.com/users/Haolk003/following{/other_user}","gists_url":"https://api.github.com/users/Haolk003/gists{/gist_id}","starred_url":"https://api.github.com/users/Haolk003/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Haolk003/subscriptions","organizations_url":"https://api.github.com/users/Haolk003/orgs","repos_url":"https://api.github.com/users/Haolk003/repos","events_url":"https://api.github.com/users/Haolk003/events{/privacy}","received_events_url":"https://api.github.com/users/Haolk003/received_events","type":"User","site_admin":false,"name":"Hào Nguyễn ","company":"Home","blog":"","location":"Tp.HCM","email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":9,"public_gists":0,"followers":0,"following":0,"created_at":"2021-12-22T02:37:56Z","updated_at":"2022-07-23T14:03:04Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":131927,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as Haolk003 
+[info] 
+[debug] [2022-08-14T05:21:17.118Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-08-14T05:21:17.827Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-08-14T05:21:17.827Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-08-14T05:21:20.304Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-08-14T05:21:20.512Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-08-14T05:21:20.696Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-08-14T05:21:20.801Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-08-14T05:21:20.801Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-08-14T05:21:20.863Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-08-14T05:21:20.965Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-08-14T05:21:20.965Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-08-14T05:21:21.030Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-08-14T05:21:21.171Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-08-14T05:21:21.172Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-08-14T05:21:21.209Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-08-14T05:21:21.350Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-08-14T05:21:21.350Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-08-14T05:21:21.358Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-08-14T05:21:21.526Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-08-14T05:21:21.532Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-08-14T05:21:21.532Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-08-14T05:21:21.689Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-08-14T05:21:21.693Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-08-14T05:21:21.694Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-08-14T05:21:21.834Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-08-14T05:21:21.835Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-08-14T05:21:21.837Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-08-14T05:21:21.984Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-08-14T05:21:22.000Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-08-14T05:21:22.000Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-08-14T05:21:22.169Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-08-14T05:21:22.169Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-08-14T05:21:22.319Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-08-14T05:21:22.320Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-08-14T05:21:22.460Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-08-14T05:21:22.460Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-08-14T05:21:28.104Z] >>> [apiv2][query] GET https://api.github.com/repos/   /actions/secrets/public-key type=owner
+[debug] [2022-08-14T05:21:28.294Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-08-14T05:21:28.471Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-08-14T05:21:28.591Z] <<< [apiv2][status] GET https://api.github.com/repos/   /actions/secrets/public-key 404
+[debug] [2022-08-14T05:21:28.591Z] <<< [apiv2][body] GET https://api.github.com/repos/   /actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-08-14T05:21:28.844Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-08-14T05:21:28.844Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-08-14T05:21:28.976Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-08-14T05:21:28.976Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
